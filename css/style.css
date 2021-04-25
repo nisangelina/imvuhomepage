@@ -174,8 +174,19 @@ img {
 
 .avatar
 {
-  border-radius: 10%;
+  max-width: 100%;
+  height: auto;
 }
+
+.profile-circle{
+  background: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
 
 embed {
   vertical-align: top;
